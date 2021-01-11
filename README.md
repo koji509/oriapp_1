@@ -6,7 +6,7 @@
 | ----------- | ------ | ----------- |
 | email       | string | null: false |
 | password    | string | null: false |
-| name        | string | null: false |
+| user        | string | null: false |
 | profile     | text   | null: false |
 
 ### Association
