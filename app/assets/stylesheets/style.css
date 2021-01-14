@@ -37,7 +37,7 @@ a {
 /* ヘッダー */
 
 .header {
-  background-color: #f1f8fe;
+  background-color: #ffffff;
   margin-bottom: 48px;
   padding: 20px 0;
 
@@ -52,29 +52,29 @@ a {
   justify-content: space-between;
 }
 .logo {
-  width: 200px;
+  width: 350px;
 }
 .nav__btn{
   display: inline-block;
   padding: 0.4em 1.6em;
   font-size: 0.8em;
-  color: #87CEFA;
+  color: black;
   text-decoration: none;
   user-select: none;
-  border: 1px #87CEFA solid;
+  border: 1px black solid;
   border-radius: 3px;
   transition: 0.4s ease;
 }
 .nav__btn:hover{
-  color: #fff;
-  background: #87CEFA;
+  color: #ffffff;
+  background: black;
 }
 
 .nav__logout{
   display: inline-block;
   padding: 0.4em 1.6em;
   font-size: 0.8em;
-  color: #87CEFA;
+  color: black;
   text-decoration: none;
   user-select: none;
 }
@@ -103,19 +103,18 @@ a {
   display: inline-block;
   padding: 0.4em 1.6em;
   font-size: 0.8em;
-  color: #fff;
+  color: black;
   text-decoration: none;
   user-select: none;
-  background: #87CEFA;
-  border: 1px #87CEFA solid;
+  border: 1px black solid;
   border-radius: 3px;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 2px 0 rgba(0, 0, 0, 0.12);
   transition: 0.2s ease;
 }
 
 .form__btn:hover {
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
   cursor: pointer;
+  background: rgb(8, 8, 8);
+  color:#ffffff;
 }
 
 /* メイン */
@@ -201,21 +200,21 @@ a {
   display: block;
   padding: 0.4em 1.6em;
   font-size: 0.4em;
-  color: #999;
+  color: black;
   text-decoration: none;
   user-select: none;
-  border: 1px #999 solid;
+  border: 1px black solid;
   border-radius: 3px;
   transition: 0.4s ease;
   margin: 0 4px;
 }
 .fashion__btn:hover{
-  color: #fff;
-  background: #999;
+  color: #ffffff;
+  background: black;
 }
 
 .fashion__comments{
-  background-color: #f6f6f6;
+  background-color: #ffffff;
   padding: 20px;
   margin: 28px 0 40px 0;
 }
@@ -269,12 +268,12 @@ a {
 /* フッター */
 
 .footer {
-  background-color: #999;
+  background-color: #ffffff;
   padding: 10px 0;
 }
 .copyright {
   text-align: center;
-  color: #fff;
+  color: black;
   font-size: 10px;
 }
 
