@@ -25,10 +25,10 @@ describe Fashion do
       it "itemが空だと投稿できない" do
         @fashion.item = ''
         @fashion.valid?
-        expect(@fashion.errors.full_messages).to include(" can't be blank")
+        expect(@fashion.errors.full_messages).to include("Item can't be blank")
       end
       it "imageが空だと投稿できない" do
-        @fashion.image = ''
+        @fashion.image = nil
         @fashion.valid?
         expect(@fashion.errors.full_messages).to include("Image can't be blank")
       end
