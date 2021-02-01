@@ -1,7 +1,7 @@
 require 'rails_helper'
-
-RSpec.describe Fashion, type: :model  do
+describe Fashion do
   before do
+    @user = FactoryBot.create(:user)
     @fashion = FactoryBot.build(:fashion)
   end
 
@@ -25,7 +25,7 @@ RSpec.describe Fashion, type: :model  do
       it "itemが空だと投稿できない" do
         @fashion.item = ''
         @fashion.valid?
-        expect(@fashion.errors.full_messages).to include("Item can't be blank")
+        expect(@fashion.errors.full_messages).to include(" can't be blank")
       end
       it "imageが空だと投稿できない" do
         @fashion.image = ''

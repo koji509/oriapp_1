@@ -1,8 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe Comment, type: :model do
+describe Comment do
   before do
     @user = FactoryBot.create(:user)
+    @fashion = FactoryBot.create(:fashion)
     @comment = FactoryBot.build(:comment)
   end
 
