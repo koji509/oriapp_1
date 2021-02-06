@@ -5,7 +5,7 @@ class Fashion < ApplicationRecord
   has_many :users, through: :comments
 
   validates :artist, presence: true
-  validates :brand, presence: true
-  validates :item, presence: true
-  validates :image, presence: true
+  validates :brand,  presence: true
+  validates :item,   presence: true
+  validates :image,  presence: true
 end
